@@ -1,0 +1,34 @@
+Best hyperparameters: (True, 20, 'auto', 3, 10, 20)
+train_score: 0.760623
+validation_score: 0.412732
+RandomStratified
+Training   RMSE:0.12 Pearson:0.87
+Testing    RMSE:0.28 Pearson:0.53
+Validation RMSE:0.20 Pearson:0.64
+Loading raw samples now.
+--
+Best hyperparameters: (True, 25, 'auto', 3, 10, 10)
+train_score: 0.744344
+validation_score: 0.361368
+Scaffold
+Training   RMSE:0.12 Pearson:0.86
+Testing    RMSE:0.48 Pearson:0.25
+Validation RMSE:0.20 Pearson:0.60
+Loading raw samples now.
+--
+Best hyperparameters: (True, 10, 'sqrt', 3, 10, 10)
+train_score: 0.479575
+validation_score: 0.138456
+MaxMin
+Training   RMSE:0.27 Pearson:0.69
+Testing    RMSE:0.36 Pearson:0.31
+Validation RMSE:0.22 Pearson:0.37
+Loading raw samples now.
+--
+Best hyperparameters: (True, 25, 'sqrt', 3, 10, 10)
+train_score: 0.565648
+validation_score: 0.170407
+FingerPrint
+Training   RMSE:0.21 Pearson:0.75
+Testing    RMSE:0.20 Pearson:0.00
+Validation RMSE:0.45 Pearson:0.41

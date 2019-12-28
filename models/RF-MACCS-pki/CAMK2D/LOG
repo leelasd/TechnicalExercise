@@ -1,0 +1,2529 @@
+       pchembl_value
+count     238.000000
+mean        5.918908
+std         0.670049
+min         5.200000
+25%         5.400000
+50%         5.700000
+75%         6.200000
+max         8.400000
+Loading raw samples now.
+About to start loading CSV from ../../../data/pki/CAMK2D_pki.csv
+Loading shard 1 of size 8192.
+Featurizing sample 0
+TIMING: featurizing shard 0 took 0.865 s
+TIMING: dataset construction took 0.882 s
+Loading dataset from disk.
+RandomStratified
+TIMING: dataset construction took 0.005 s
+Loading dataset from disk.
+TIMING: dataset construction took 0.004 s
+Loading dataset from disk.
+TIMING: dataset construction took 0.005 s
+Loading dataset from disk.
+TIMING: dataset construction took 0.005 s
+Loading dataset from disk.
+TIMING: dataset construction took 0.019 s
+Loading dataset from disk.
+TIMING: dataset construction took 0.006 s
+Loading dataset from disk.
+TIMING: dataset construction took 0.008 s
+Loading dataset from disk.
+Fitting model 1/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_RandomStratified/0
+computed_metrics: [0.1772210719875792]
+Model 1/100, Metric r2_score, Validation set 0: 0.177221
+	best_validation_score so far: 0.177221
+Fitting model 2/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_RandomStratified/1
+computed_metrics: [0.06708271722930315]
+Model 2/100, Metric r2_score, Validation set 1: 0.067083
+	best_validation_score so far: 0.177221
+Fitting model 3/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_RandomStratified/2
+computed_metrics: [0.1869043158084237]
+Model 3/100, Metric r2_score, Validation set 2: 0.186904
+	best_validation_score so far: 0.186904
+Fitting model 4/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_RandomStratified/3
+computed_metrics: [0.13112480865601428]
+Model 4/100, Metric r2_score, Validation set 3: 0.131125
+	best_validation_score so far: 0.186904
+Fitting model 5/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_RandomStratified/4
+computed_metrics: [0.15320405017665173]
+Model 5/100, Metric r2_score, Validation set 4: 0.153204
+	best_validation_score so far: 0.186904
+Fitting model 6/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_RandomStratified/5
+computed_metrics: [0.14091501979978172]
+Model 6/100, Metric r2_score, Validation set 5: 0.140915
+	best_validation_score so far: 0.186904
+Fitting model 7/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_RandomStratified/6
+computed_metrics: [0.06546248819463596]
+Model 7/100, Metric r2_score, Validation set 6: 0.065462
+	best_validation_score so far: 0.186904
+Fitting model 8/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_RandomStratified/7
+computed_metrics: [0.09742118162285074]
+Model 8/100, Metric r2_score, Validation set 7: 0.097421
+	best_validation_score so far: 0.186904
+Fitting model 9/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_RandomStratified/8
+computed_metrics: [0.21039024993812594]
+Model 9/100, Metric r2_score, Validation set 8: 0.210390
+	best_validation_score so far: 0.210390
+Fitting model 10/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_RandomStratified/9
+computed_metrics: [0.16023257677781888]
+Model 10/100, Metric r2_score, Validation set 9: 0.160233
+	best_validation_score so far: 0.210390
+Fitting model 11/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_RandomStratified/10
+computed_metrics: [0.10903892696372319]
+Model 11/100, Metric r2_score, Validation set 10: 0.109039
+	best_validation_score so far: 0.210390
+Fitting model 12/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_RandomStratified/11
+computed_metrics: [0.11872477144081173]
+Model 12/100, Metric r2_score, Validation set 11: 0.118725
+	best_validation_score so far: 0.210390
+Fitting model 13/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_RandomStratified/12
+computed_metrics: [0.08658004715850542]
+Model 13/100, Metric r2_score, Validation set 12: 0.086580
+	best_validation_score so far: 0.210390
+Fitting model 14/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_RandomStratified/13
+computed_metrics: [0.108193140293537]
+Model 14/100, Metric r2_score, Validation set 13: 0.108193
+	best_validation_score so far: 0.210390
+Fitting model 15/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_RandomStratified/14
+computed_metrics: [0.13249171783247582]
+Model 15/100, Metric r2_score, Validation set 14: 0.132492
+	best_validation_score so far: 0.210390
+Fitting model 16/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_RandomStratified/15
+computed_metrics: [0.1708813854852076]
+Model 16/100, Metric r2_score, Validation set 15: 0.170881
+	best_validation_score so far: 0.210390
+Fitting model 17/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_RandomStratified/16
+computed_metrics: [0.14139772786428395]
+Model 17/100, Metric r2_score, Validation set 16: 0.141398
+	best_validation_score so far: 0.210390
+Fitting model 18/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_RandomStratified/17
+computed_metrics: [0.1198030592515631]
+Model 18/100, Metric r2_score, Validation set 17: 0.119803
+	best_validation_score so far: 0.210390
+Fitting model 19/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_RandomStratified/18
+computed_metrics: [0.14010220407211482]
+Model 19/100, Metric r2_score, Validation set 18: 0.140102
+	best_validation_score so far: 0.210390
+Fitting model 20/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_RandomStratified/19
+computed_metrics: [0.16818308227254164]
+Model 20/100, Metric r2_score, Validation set 19: 0.168183
+	best_validation_score so far: 0.210390
+Fitting model 21/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_RandomStratified/20
+computed_metrics: [0.17828059406618024]
+Model 21/100, Metric r2_score, Validation set 20: 0.178281
+	best_validation_score so far: 0.210390
+Fitting model 22/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_RandomStratified/21
+computed_metrics: [0.22418504189374722]
+Model 22/100, Metric r2_score, Validation set 21: 0.224185
+	best_validation_score so far: 0.224185
+Fitting model 23/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_RandomStratified/22
+computed_metrics: [0.1848668622178098]
+Model 23/100, Metric r2_score, Validation set 22: 0.184867
+	best_validation_score so far: 0.224185
+Fitting model 24/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_RandomStratified/23
+computed_metrics: [0.1348160448898159]
+Model 24/100, Metric r2_score, Validation set 23: 0.134816
+	best_validation_score so far: 0.224185
+Fitting model 25/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_RandomStratified/24
+computed_metrics: [0.15959836275205053]
+Model 25/100, Metric r2_score, Validation set 24: 0.159598
+	best_validation_score so far: 0.224185
+Fitting model 26/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_RandomStratified/25
+computed_metrics: [0.16842481896372696]
+Model 26/100, Metric r2_score, Validation set 25: 0.168425
+	best_validation_score so far: 0.224185
+Fitting model 27/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_RandomStratified/26
+computed_metrics: [0.13141746850640434]
+Model 27/100, Metric r2_score, Validation set 26: 0.131417
+	best_validation_score so far: 0.224185
+Fitting model 28/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_RandomStratified/27
+computed_metrics: [0.14823835258870144]
+Model 28/100, Metric r2_score, Validation set 27: 0.148238
+	best_validation_score so far: 0.224185
+Fitting model 29/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_RandomStratified/28
+computed_metrics: [0.1800306764088776]
+Model 29/100, Metric r2_score, Validation set 28: 0.180031
+	best_validation_score so far: 0.224185
+Fitting model 30/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_RandomStratified/29
+computed_metrics: [0.16036116715443538]
+Model 30/100, Metric r2_score, Validation set 29: 0.160361
+	best_validation_score so far: 0.224185
+Fitting model 31/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_RandomStratified/30
+computed_metrics: [0.12552233639502397]
+Model 31/100, Metric r2_score, Validation set 30: 0.125522
+	best_validation_score so far: 0.224185
+Fitting model 32/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_RandomStratified/31
+computed_metrics: [0.0796324754389921]
+Model 32/100, Metric r2_score, Validation set 31: 0.079632
+	best_validation_score so far: 0.224185
+Fitting model 33/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_RandomStratified/32
+computed_metrics: [0.07368374648632037]
+Model 33/100, Metric r2_score, Validation set 32: 0.073684
+	best_validation_score so far: 0.224185
+Fitting model 34/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_RandomStratified/33
+computed_metrics: [0.11638161988762175]
+Model 34/100, Metric r2_score, Validation set 33: 0.116382
+	best_validation_score so far: 0.224185
+Fitting model 35/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_RandomStratified/34
+computed_metrics: [0.15199085099619492]
+Model 35/100, Metric r2_score, Validation set 34: 0.151991
+	best_validation_score so far: 0.224185
+Fitting model 36/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_RandomStratified/35
+computed_metrics: [0.16387733550303807]
+Model 36/100, Metric r2_score, Validation set 35: 0.163877
+	best_validation_score so far: 0.224185
+Fitting model 37/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_RandomStratified/36
+computed_metrics: [0.21172249126209186]
+Model 37/100, Metric r2_score, Validation set 36: 0.211722
+	best_validation_score so far: 0.224185
+Fitting model 38/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_RandomStratified/37
+computed_metrics: [0.19793809627505055]
+Model 38/100, Metric r2_score, Validation set 37: 0.197938
+	best_validation_score so far: 0.224185
+Fitting model 39/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_RandomStratified/38
+computed_metrics: [0.17784105329698574]
+Model 39/100, Metric r2_score, Validation set 38: 0.177841
+	best_validation_score so far: 0.224185
+Fitting model 40/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_RandomStratified/39
+computed_metrics: [0.1366723925182599]
+Model 40/100, Metric r2_score, Validation set 39: 0.136672
+	best_validation_score so far: 0.224185
+Fitting model 41/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_RandomStratified/40
+computed_metrics: [0.1787118312711944]
+Model 41/100, Metric r2_score, Validation set 40: 0.178712
+	best_validation_score so far: 0.224185
+Fitting model 42/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_RandomStratified/41
+computed_metrics: [0.08777821782640138]
+Model 42/100, Metric r2_score, Validation set 41: 0.087778
+	best_validation_score so far: 0.224185
+Fitting model 43/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_RandomStratified/42
+computed_metrics: [0.2349276840215755]
+Model 43/100, Metric r2_score, Validation set 42: 0.234928
+	best_validation_score so far: 0.234928
+Fitting model 44/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_RandomStratified/43
+computed_metrics: [0.164405168708192]
+Model 44/100, Metric r2_score, Validation set 43: 0.164405
+	best_validation_score so far: 0.234928
+Fitting model 45/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_RandomStratified/44
+computed_metrics: [0.18870021247222069]
+Model 45/100, Metric r2_score, Validation set 44: 0.188700
+	best_validation_score so far: 0.234928
+Fitting model 46/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_RandomStratified/45
+computed_metrics: [0.2736517338335156]
+Model 46/100, Metric r2_score, Validation set 45: 0.273652
+	best_validation_score so far: 0.273652
+Fitting model 47/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_RandomStratified/46
+computed_metrics: [0.13284286598834627]
+Model 47/100, Metric r2_score, Validation set 46: 0.132843
+	best_validation_score so far: 0.273652
+Fitting model 48/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_RandomStratified/47
+computed_metrics: [0.20074568049981723]
+Model 48/100, Metric r2_score, Validation set 47: 0.200746
+	best_validation_score so far: 0.273652
+Fitting model 49/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_RandomStratified/48
+computed_metrics: [0.15387057532134718]
+Model 49/100, Metric r2_score, Validation set 48: 0.153871
+	best_validation_score so far: 0.273652
+Fitting model 50/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_RandomStratified/49
+computed_metrics: [0.1795621005131427]
+Model 50/100, Metric r2_score, Validation set 49: 0.179562
+	best_validation_score so far: 0.273652
+Fitting model 51/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_RandomStratified/50
+computed_metrics: [0.01830578632630664]
+Model 51/100, Metric r2_score, Validation set 50: 0.018306
+	best_validation_score so far: 0.273652
+Fitting model 52/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_RandomStratified/51
+computed_metrics: [0.17480448176859165]
+Model 52/100, Metric r2_score, Validation set 51: 0.174804
+	best_validation_score so far: 0.273652
+Fitting model 53/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_RandomStratified/52
+computed_metrics: [0.1049507473029786]
+Model 53/100, Metric r2_score, Validation set 52: 0.104951
+	best_validation_score so far: 0.273652
+Fitting model 54/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_RandomStratified/53
+computed_metrics: [0.13869215959945103]
+Model 54/100, Metric r2_score, Validation set 53: 0.138692
+	best_validation_score so far: 0.273652
+Fitting model 55/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_RandomStratified/54
+computed_metrics: [0.16607539078337252]
+Model 55/100, Metric r2_score, Validation set 54: 0.166075
+	best_validation_score so far: 0.273652
+Fitting model 56/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_RandomStratified/55
+computed_metrics: [0.05486733357224638]
+Model 56/100, Metric r2_score, Validation set 55: 0.054867
+	best_validation_score so far: 0.273652
+Fitting model 57/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_RandomStratified/56
+computed_metrics: [0.2171567214084258]
+Model 57/100, Metric r2_score, Validation set 56: 0.217157
+	best_validation_score so far: 0.273652
+Fitting model 58/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_RandomStratified/57
+computed_metrics: [0.18784085579573417]
+Model 58/100, Metric r2_score, Validation set 57: 0.187841
+	best_validation_score so far: 0.273652
+Fitting model 59/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_RandomStratified/58
+computed_metrics: [0.14941343936184248]
+Model 59/100, Metric r2_score, Validation set 58: 0.149413
+	best_validation_score so far: 0.273652
+Fitting model 60/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_RandomStratified/59
+computed_metrics: [0.1935116813122375]
+Model 60/100, Metric r2_score, Validation set 59: 0.193512
+	best_validation_score so far: 0.273652
+Fitting model 61/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_RandomStratified/60
+computed_metrics: [0.2513354094139477]
+Model 61/100, Metric r2_score, Validation set 60: 0.251335
+	best_validation_score so far: 0.273652
+Fitting model 62/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_RandomStratified/61
+computed_metrics: [0.17213160747515743]
+Model 62/100, Metric r2_score, Validation set 61: 0.172132
+	best_validation_score so far: 0.273652
+Fitting model 63/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_RandomStratified/62
+computed_metrics: [0.16627339739121094]
+Model 63/100, Metric r2_score, Validation set 62: 0.166273
+	best_validation_score so far: 0.273652
+Fitting model 64/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_RandomStratified/63
+computed_metrics: [0.17230605384721565]
+Model 64/100, Metric r2_score, Validation set 63: 0.172306
+	best_validation_score so far: 0.273652
+Fitting model 65/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_RandomStratified/64
+computed_metrics: [0.1703316365306361]
+Model 65/100, Metric r2_score, Validation set 64: 0.170332
+	best_validation_score so far: 0.273652
+Fitting model 66/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_RandomStratified/65
+computed_metrics: [0.15780269123294177]
+Model 66/100, Metric r2_score, Validation set 65: 0.157803
+	best_validation_score so far: 0.273652
+Fitting model 67/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_RandomStratified/66
+computed_metrics: [0.12058533058421106]
+Model 67/100, Metric r2_score, Validation set 66: 0.120585
+	best_validation_score so far: 0.273652
+Fitting model 68/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_RandomStratified/67
+computed_metrics: [0.16932675412499176]
+Model 68/100, Metric r2_score, Validation set 67: 0.169327
+	best_validation_score so far: 0.273652
+Fitting model 69/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_RandomStratified/68
+computed_metrics: [0.16184958514012182]
+Model 69/100, Metric r2_score, Validation set 68: 0.161850
+	best_validation_score so far: 0.273652
+Fitting model 70/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_RandomStratified/69
+computed_metrics: [0.18690360017414243]
+Model 70/100, Metric r2_score, Validation set 69: 0.186904
+	best_validation_score so far: 0.273652
+Fitting model 71/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_RandomStratified/70
+computed_metrics: [0.17431253660053858]
+Model 71/100, Metric r2_score, Validation set 70: 0.174313
+	best_validation_score so far: 0.273652
+Fitting model 72/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_RandomStratified/71
+computed_metrics: [0.09498362713781794]
+Model 72/100, Metric r2_score, Validation set 71: 0.094984
+	best_validation_score so far: 0.273652
+Fitting model 73/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_RandomStratified/72
+computed_metrics: [0.12956015717168556]
+Model 73/100, Metric r2_score, Validation set 72: 0.129560
+	best_validation_score so far: 0.273652
+Fitting model 74/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_RandomStratified/73
+computed_metrics: [0.1210060137184692]
+Model 74/100, Metric r2_score, Validation set 73: 0.121006
+	best_validation_score so far: 0.273652
+Fitting model 75/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_RandomStratified/74
+computed_metrics: [0.14129928432586236]
+Model 75/100, Metric r2_score, Validation set 74: 0.141299
+	best_validation_score so far: 0.273652
+Fitting model 76/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_RandomStratified/75
+computed_metrics: [0.09388524700201262]
+Model 76/100, Metric r2_score, Validation set 75: 0.093885
+	best_validation_score so far: 0.273652
+Fitting model 77/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_RandomStratified/76
+computed_metrics: [0.18656462439777077]
+Model 77/100, Metric r2_score, Validation set 76: 0.186565
+	best_validation_score so far: 0.273652
+Fitting model 78/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_RandomStratified/77
+computed_metrics: [0.16116770688448467]
+Model 78/100, Metric r2_score, Validation set 77: 0.161168
+	best_validation_score so far: 0.273652
+Fitting model 79/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_RandomStratified/78
+computed_metrics: [0.17207859716277796]
+Model 79/100, Metric r2_score, Validation set 78: 0.172079
+	best_validation_score so far: 0.273652
+Fitting model 80/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_RandomStratified/79
+computed_metrics: [0.17206429659154776]
+Model 80/100, Metric r2_score, Validation set 79: 0.172064
+	best_validation_score so far: 0.273652
+Fitting model 81/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_RandomStratified/80
+computed_metrics: [0.15840834702681272]
+Model 81/100, Metric r2_score, Validation set 80: 0.158408
+	best_validation_score so far: 0.273652
+Fitting model 82/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_RandomStratified/81
+computed_metrics: [0.1913291062144633]
+Model 82/100, Metric r2_score, Validation set 81: 0.191329
+	best_validation_score so far: 0.273652
+Fitting model 83/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_RandomStratified/82
+computed_metrics: [0.1403501957942931]
+Model 83/100, Metric r2_score, Validation set 82: 0.140350
+	best_validation_score so far: 0.273652
+Fitting model 84/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_RandomStratified/83
+computed_metrics: [0.17481260284457167]
+Model 84/100, Metric r2_score, Validation set 83: 0.174813
+	best_validation_score so far: 0.273652
+Fitting model 85/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_RandomStratified/84
+computed_metrics: [0.17321202516241918]
+Model 85/100, Metric r2_score, Validation set 84: 0.173212
+	best_validation_score so far: 0.273652
+Fitting model 86/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_RandomStratified/85
+computed_metrics: [0.048162787223810954]
+Model 86/100, Metric r2_score, Validation set 85: 0.048163
+	best_validation_score so far: 0.273652
+Fitting model 87/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_RandomStratified/86
+computed_metrics: [0.14121882278480224]
+Model 87/100, Metric r2_score, Validation set 86: 0.141219
+	best_validation_score so far: 0.273652
+Fitting model 88/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_RandomStratified/87
+computed_metrics: [0.17285217579808232]
+Model 88/100, Metric r2_score, Validation set 87: 0.172852
+	best_validation_score so far: 0.273652
+Fitting model 89/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_RandomStratified/88
+computed_metrics: [0.125355600690077]
+Model 89/100, Metric r2_score, Validation set 88: 0.125356
+	best_validation_score so far: 0.273652
+Fitting model 90/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_RandomStratified/89
+computed_metrics: [0.15883053981324846]
+Model 90/100, Metric r2_score, Validation set 89: 0.158831
+	best_validation_score so far: 0.273652
+Fitting model 91/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_RandomStratified/90
+computed_metrics: [0.13531979292543717]
+Model 91/100, Metric r2_score, Validation set 90: 0.135320
+	best_validation_score so far: 0.273652
+Fitting model 92/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_RandomStratified/91
+computed_metrics: [0.1441444694477364]
+Model 92/100, Metric r2_score, Validation set 91: 0.144144
+	best_validation_score so far: 0.273652
+Fitting model 93/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_RandomStratified/92
+computed_metrics: [0.17250862561111668]
+Model 93/100, Metric r2_score, Validation set 92: 0.172509
+	best_validation_score so far: 0.273652
+Fitting model 94/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_RandomStratified/93
+computed_metrics: [0.11764921866093025]
+Model 94/100, Metric r2_score, Validation set 93: 0.117649
+	best_validation_score so far: 0.273652
+Fitting model 95/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_RandomStratified/94
+computed_metrics: [0.15566120519440585]
+Model 95/100, Metric r2_score, Validation set 94: 0.155661
+	best_validation_score so far: 0.273652
+Fitting model 96/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_RandomStratified/95
+computed_metrics: [0.16112683352706925]
+Model 96/100, Metric r2_score, Validation set 95: 0.161127
+	best_validation_score so far: 0.273652
+Fitting model 97/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_RandomStratified/96
+computed_metrics: [0.09388047623021867]
+Model 97/100, Metric r2_score, Validation set 96: 0.093880
+	best_validation_score so far: 0.273652
+Fitting model 98/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_RandomStratified/97
+computed_metrics: [0.1657460384578462]
+Model 98/100, Metric r2_score, Validation set 97: 0.165746
+	best_validation_score so far: 0.273652
+Fitting model 99/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_RandomStratified/98
+computed_metrics: [0.18290946162656896]
+Model 99/100, Metric r2_score, Validation set 98: 0.182909
+	best_validation_score so far: 0.273652
+Fitting model 100/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_RandomStratified/99
+computed_metrics: [0.19601475376930033]
+Model 100/100, Metric r2_score, Validation set 99: 0.196015
+	best_validation_score so far: 0.273652
+computed_metrics: [0.4184229079455529]
+Best hyperparameters: (True, 20, 'sqrt', 3, 10, 10)
+train_score: 0.418423
+validation_score: 0.273652
+RandomStratified
+Training   RMSE:0.25 Pearson:0.65
+Testing    RMSE:0.29 Pearson:0.31
+Validation RMSE:0.46 Pearson:0.52
+Loading raw samples now.
+About to start loading CSV from ../../../data/pki/CAMK2D_pki.csv
+Loading shard 1 of size 8192.
+Featurizing sample 0
+TIMING: featurizing shard 0 took 0.821 s
+TIMING: dataset construction took 0.834 s
+Loading dataset from disk.
+Scaffold
+Computing train/valid/test indices
+About to generate scaffolds
+Generating scaffold 0/238
+About to sort in scaffold sets
+TIMING: dataset construction took 0.008 s
+Loading dataset from disk.
+TIMING: dataset construction took 0.006 s
+Loading dataset from disk.
+TIMING: dataset construction took 0.008 s
+Loading dataset from disk.
+TIMING: dataset construction took 0.007 s
+Loading dataset from disk.
+TIMING: dataset construction took 0.007 s
+Loading dataset from disk.
+TIMING: dataset construction took 0.006 s
+Loading dataset from disk.
+Fitting model 1/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_Scaffold/0
+computed_metrics: [-0.4559347748742322]
+Model 1/100, Metric r2_score, Validation set 0: -0.455935
+	best_validation_score so far: -0.455935
+Fitting model 2/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_Scaffold/1
+computed_metrics: [-0.5189529962468471]
+Model 2/100, Metric r2_score, Validation set 1: -0.518953
+	best_validation_score so far: -0.455935
+Fitting model 3/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_Scaffold/2
+computed_metrics: [-0.13268281280250527]
+Model 3/100, Metric r2_score, Validation set 2: -0.132683
+	best_validation_score so far: -0.132683
+Fitting model 4/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_Scaffold/3
+computed_metrics: [-0.1856106849716641]
+Model 4/100, Metric r2_score, Validation set 3: -0.185611
+	best_validation_score so far: -0.132683
+Fitting model 5/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_Scaffold/4
+computed_metrics: [-0.2656627220196621]
+Model 5/100, Metric r2_score, Validation set 4: -0.265663
+	best_validation_score so far: -0.132683
+Fitting model 6/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_Scaffold/5
+computed_metrics: [-0.1886987235061659]
+Model 6/100, Metric r2_score, Validation set 5: -0.188699
+	best_validation_score so far: -0.132683
+Fitting model 7/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_Scaffold/6
+computed_metrics: [-0.20124096101636169]
+Model 7/100, Metric r2_score, Validation set 6: -0.201241
+	best_validation_score so far: -0.132683
+Fitting model 8/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_Scaffold/7
+computed_metrics: [-0.13443179696698881]
+Model 8/100, Metric r2_score, Validation set 7: -0.134432
+	best_validation_score so far: -0.132683
+Fitting model 9/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_Scaffold/8
+computed_metrics: [-0.08282249212978487]
+Model 9/100, Metric r2_score, Validation set 8: -0.082822
+	best_validation_score so far: -0.082822
+Fitting model 10/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_Scaffold/9
+computed_metrics: [-0.16065816523523035]
+Model 10/100, Metric r2_score, Validation set 9: -0.160658
+	best_validation_score so far: -0.082822
+Fitting model 11/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_Scaffold/10
+computed_metrics: [-0.07449854339121642]
+Model 11/100, Metric r2_score, Validation set 10: -0.074499
+	best_validation_score so far: -0.074499
+Fitting model 12/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_Scaffold/11
+computed_metrics: [-0.12650689070524201]
+Model 12/100, Metric r2_score, Validation set 11: -0.126507
+	best_validation_score so far: -0.074499
+Fitting model 13/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_Scaffold/12
+computed_metrics: [-0.06719871693052415]
+Model 13/100, Metric r2_score, Validation set 12: -0.067199
+	best_validation_score so far: -0.067199
+Fitting model 14/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_Scaffold/13
+computed_metrics: [-0.11302308830378838]
+Model 14/100, Metric r2_score, Validation set 13: -0.113023
+	best_validation_score so far: -0.067199
+Fitting model 15/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_Scaffold/14
+computed_metrics: [-0.13005378686544344]
+Model 15/100, Metric r2_score, Validation set 14: -0.130054
+	best_validation_score so far: -0.067199
+Fitting model 16/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_Scaffold/15
+computed_metrics: [-0.27465395476118704]
+Model 16/100, Metric r2_score, Validation set 15: -0.274654
+	best_validation_score so far: -0.067199
+Fitting model 17/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_Scaffold/16
+computed_metrics: [-0.2993186966109982]
+Model 17/100, Metric r2_score, Validation set 16: -0.299319
+	best_validation_score so far: -0.067199
+Fitting model 18/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_Scaffold/17
+computed_metrics: [-0.21628423632719107]
+Model 18/100, Metric r2_score, Validation set 17: -0.216284
+	best_validation_score so far: -0.067199
+Fitting model 19/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_Scaffold/18
+computed_metrics: [-0.2645435376134062]
+Model 19/100, Metric r2_score, Validation set 18: -0.264544
+	best_validation_score so far: -0.067199
+Fitting model 20/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_Scaffold/19
+computed_metrics: [-0.2575866076314126]
+Model 20/100, Metric r2_score, Validation set 19: -0.257587
+	best_validation_score so far: -0.067199
+Fitting model 21/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_Scaffold/20
+computed_metrics: [-0.3485803731320627]
+Model 21/100, Metric r2_score, Validation set 20: -0.348580
+	best_validation_score so far: -0.067199
+Fitting model 22/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_Scaffold/21
+computed_metrics: [-0.3525800442018918]
+Model 22/100, Metric r2_score, Validation set 21: -0.352580
+	best_validation_score so far: -0.067199
+Fitting model 23/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_Scaffold/22
+computed_metrics: [-0.29376899882011775]
+Model 23/100, Metric r2_score, Validation set 22: -0.293769
+	best_validation_score so far: -0.067199
+Fitting model 24/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_Scaffold/23
+computed_metrics: [-0.3455794555517875]
+Model 24/100, Metric r2_score, Validation set 23: -0.345579
+	best_validation_score so far: -0.067199
+Fitting model 25/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_Scaffold/24
+computed_metrics: [-0.25902087934893836]
+Model 25/100, Metric r2_score, Validation set 24: -0.259021
+	best_validation_score so far: -0.067199
+Fitting model 26/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_Scaffold/25
+computed_metrics: [-0.25326479775392485]
+Model 26/100, Metric r2_score, Validation set 25: -0.253265
+	best_validation_score so far: -0.067199
+Fitting model 27/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_Scaffold/26
+computed_metrics: [-0.21922949158251215]
+Model 27/100, Metric r2_score, Validation set 26: -0.219229
+	best_validation_score so far: -0.067199
+Fitting model 28/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_Scaffold/27
+computed_metrics: [-0.142451538568382]
+Model 28/100, Metric r2_score, Validation set 27: -0.142452
+	best_validation_score so far: -0.067199
+Fitting model 29/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_Scaffold/28
+computed_metrics: [-0.1407940067473683]
+Model 29/100, Metric r2_score, Validation set 28: -0.140794
+	best_validation_score so far: -0.067199
+Fitting model 30/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_Scaffold/29
+computed_metrics: [-0.11887730703953214]
+Model 30/100, Metric r2_score, Validation set 29: -0.118877
+	best_validation_score so far: -0.067199
+Fitting model 31/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_Scaffold/30
+computed_metrics: [-0.2658944705543389]
+Model 31/100, Metric r2_score, Validation set 30: -0.265894
+	best_validation_score so far: -0.067199
+Fitting model 32/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_Scaffold/31
+computed_metrics: [-0.13466798576062122]
+Model 32/100, Metric r2_score, Validation set 31: -0.134668
+	best_validation_score so far: -0.067199
+Fitting model 33/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_Scaffold/32
+computed_metrics: [-0.11409097135900526]
+Model 33/100, Metric r2_score, Validation set 32: -0.114091
+	best_validation_score so far: -0.067199
+Fitting model 34/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_Scaffold/33
+computed_metrics: [-0.14647731623347693]
+Model 34/100, Metric r2_score, Validation set 33: -0.146477
+	best_validation_score so far: -0.067199
+Fitting model 35/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_Scaffold/34
+computed_metrics: [-0.1257919182629348]
+Model 35/100, Metric r2_score, Validation set 34: -0.125792
+	best_validation_score so far: -0.067199
+Fitting model 36/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_Scaffold/35
+computed_metrics: [-0.16159581875265072]
+Model 36/100, Metric r2_score, Validation set 35: -0.161596
+	best_validation_score so far: -0.067199
+Fitting model 37/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_Scaffold/36
+computed_metrics: [-0.32338369567017766]
+Model 37/100, Metric r2_score, Validation set 36: -0.323384
+	best_validation_score so far: -0.067199
+Fitting model 38/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_Scaffold/37
+computed_metrics: [-0.5052863972310842]
+Model 38/100, Metric r2_score, Validation set 37: -0.505286
+	best_validation_score so far: -0.067199
+Fitting model 39/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_Scaffold/38
+computed_metrics: [-0.31347917160446515]
+Model 39/100, Metric r2_score, Validation set 38: -0.313479
+	best_validation_score so far: -0.067199
+Fitting model 40/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_Scaffold/39
+computed_metrics: [-0.23456546560293212]
+Model 40/100, Metric r2_score, Validation set 39: -0.234565
+	best_validation_score so far: -0.067199
+Fitting model 41/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_Scaffold/40
+computed_metrics: [-0.1278529209616659]
+Model 41/100, Metric r2_score, Validation set 40: -0.127853
+	best_validation_score so far: -0.067199
+Fitting model 42/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_Scaffold/41
+computed_metrics: [-0.25695467484002155]
+Model 42/100, Metric r2_score, Validation set 41: -0.256955
+	best_validation_score so far: -0.067199
+Fitting model 43/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_Scaffold/42
+computed_metrics: [-0.27241134458781335]
+Model 43/100, Metric r2_score, Validation set 42: -0.272411
+	best_validation_score so far: -0.067199
+Fitting model 44/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_Scaffold/43
+computed_metrics: [-0.30423278811344634]
+Model 44/100, Metric r2_score, Validation set 43: -0.304233
+	best_validation_score so far: -0.067199
+Fitting model 45/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_Scaffold/44
+computed_metrics: [-0.29209467580315196]
+Model 45/100, Metric r2_score, Validation set 44: -0.292095
+	best_validation_score so far: -0.067199
+Fitting model 46/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_Scaffold/45
+computed_metrics: [-0.17451432573684134]
+Model 46/100, Metric r2_score, Validation set 45: -0.174514
+	best_validation_score so far: -0.067199
+Fitting model 47/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_Scaffold/46
+computed_metrics: [-0.17516077903293503]
+Model 47/100, Metric r2_score, Validation set 46: -0.175161
+	best_validation_score so far: -0.067199
+Fitting model 48/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_Scaffold/47
+computed_metrics: [-0.13890500094376534]
+Model 48/100, Metric r2_score, Validation set 47: -0.138905
+	best_validation_score so far: -0.067199
+Fitting model 49/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_Scaffold/48
+computed_metrics: [-0.15235992104992713]
+Model 49/100, Metric r2_score, Validation set 48: -0.152360
+	best_validation_score so far: -0.067199
+Fitting model 50/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_Scaffold/49
+computed_metrics: [-0.136653571348486]
+Model 50/100, Metric r2_score, Validation set 49: -0.136654
+	best_validation_score so far: -0.067199
+Fitting model 51/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_Scaffold/50
+computed_metrics: [-0.08187862956311887]
+Model 51/100, Metric r2_score, Validation set 50: -0.081879
+	best_validation_score so far: -0.067199
+Fitting model 52/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_Scaffold/51
+computed_metrics: [-0.02615546766727528]
+Model 52/100, Metric r2_score, Validation set 51: -0.026155
+	best_validation_score so far: -0.026155
+Fitting model 53/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_Scaffold/52
+computed_metrics: [-0.1353676869621241]
+Model 53/100, Metric r2_score, Validation set 52: -0.135368
+	best_validation_score so far: -0.026155
+Fitting model 54/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_Scaffold/53
+computed_metrics: [-0.13244849831281758]
+Model 54/100, Metric r2_score, Validation set 53: -0.132448
+	best_validation_score so far: -0.026155
+Fitting model 55/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_Scaffold/54
+computed_metrics: [-0.13059871118223376]
+Model 55/100, Metric r2_score, Validation set 54: -0.130599
+	best_validation_score so far: -0.026155
+Fitting model 56/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_Scaffold/55
+computed_metrics: [-0.34385089795673607]
+Model 56/100, Metric r2_score, Validation set 55: -0.343851
+	best_validation_score so far: -0.026155
+Fitting model 57/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_Scaffold/56
+computed_metrics: [-0.26474727423404687]
+Model 57/100, Metric r2_score, Validation set 56: -0.264747
+	best_validation_score so far: -0.026155
+Fitting model 58/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_Scaffold/57
+computed_metrics: [-0.3272339428329998]
+Model 58/100, Metric r2_score, Validation set 57: -0.327234
+	best_validation_score so far: -0.026155
+Fitting model 59/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_Scaffold/58
+computed_metrics: [-0.22779966794422712]
+Model 59/100, Metric r2_score, Validation set 58: -0.227800
+	best_validation_score so far: -0.026155
+Fitting model 60/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_Scaffold/59
+computed_metrics: [-0.302158648252872]
+Model 60/100, Metric r2_score, Validation set 59: -0.302159
+	best_validation_score so far: -0.026155
+Fitting model 61/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_Scaffold/60
+computed_metrics: [-0.33354224619027084]
+Model 61/100, Metric r2_score, Validation set 60: -0.333542
+	best_validation_score so far: -0.026155
+Fitting model 62/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_Scaffold/61
+computed_metrics: [-0.32957329383035505]
+Model 62/100, Metric r2_score, Validation set 61: -0.329573
+	best_validation_score so far: -0.026155
+Fitting model 63/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_Scaffold/62
+computed_metrics: [-0.30345754540134084]
+Model 63/100, Metric r2_score, Validation set 62: -0.303458
+	best_validation_score so far: -0.026155
+Fitting model 64/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_Scaffold/63
+computed_metrics: [-0.1721251768674421]
+Model 64/100, Metric r2_score, Validation set 63: -0.172125
+	best_validation_score so far: -0.026155
+Fitting model 65/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_Scaffold/64
+computed_metrics: [-0.22538586226202795]
+Model 65/100, Metric r2_score, Validation set 64: -0.225386
+	best_validation_score so far: -0.026155
+Fitting model 66/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_Scaffold/65
+computed_metrics: [-0.08822818105640984]
+Model 66/100, Metric r2_score, Validation set 65: -0.088228
+	best_validation_score so far: -0.026155
+Fitting model 67/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_Scaffold/66
+computed_metrics: [-0.21479443225706296]
+Model 67/100, Metric r2_score, Validation set 66: -0.214794
+	best_validation_score so far: -0.026155
+Fitting model 68/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_Scaffold/67
+computed_metrics: [-0.21575013393643938]
+Model 68/100, Metric r2_score, Validation set 67: -0.215750
+	best_validation_score so far: -0.026155
+Fitting model 69/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_Scaffold/68
+computed_metrics: [-0.09335605033333572]
+Model 69/100, Metric r2_score, Validation set 68: -0.093356
+	best_validation_score so far: -0.026155
+Fitting model 70/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_Scaffold/69
+computed_metrics: [-0.15037375564447997]
+Model 70/100, Metric r2_score, Validation set 69: -0.150374
+	best_validation_score so far: -0.026155
+Fitting model 71/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_Scaffold/70
+computed_metrics: [-0.15032600902975757]
+Model 71/100, Metric r2_score, Validation set 70: -0.150326
+	best_validation_score so far: -0.026155
+Fitting model 72/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_Scaffold/71
+computed_metrics: [-0.14312625136149992]
+Model 72/100, Metric r2_score, Validation set 71: -0.143126
+	best_validation_score so far: -0.026155
+Fitting model 73/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_Scaffold/72
+computed_metrics: [-0.060270984221563406]
+Model 73/100, Metric r2_score, Validation set 72: -0.060271
+	best_validation_score so far: -0.026155
+Fitting model 74/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_Scaffold/73
+computed_metrics: [-0.11935159208887036]
+Model 74/100, Metric r2_score, Validation set 73: -0.119352
+	best_validation_score so far: -0.026155
+Fitting model 75/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_Scaffold/74
+computed_metrics: [-0.11189422065416643]
+Model 75/100, Metric r2_score, Validation set 74: -0.111894
+	best_validation_score so far: -0.026155
+Fitting model 76/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_Scaffold/75
+computed_metrics: [-0.31270080052643023]
+Model 76/100, Metric r2_score, Validation set 75: -0.312701
+	best_validation_score so far: -0.026155
+Fitting model 77/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_Scaffold/76
+computed_metrics: [-0.500008723686213]
+Model 77/100, Metric r2_score, Validation set 76: -0.500009
+	best_validation_score so far: -0.026155
+Fitting model 78/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_Scaffold/77
+computed_metrics: [-0.2134321487802806]
+Model 78/100, Metric r2_score, Validation set 77: -0.213432
+	best_validation_score so far: -0.026155
+Fitting model 79/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_Scaffold/78
+computed_metrics: [-0.301990480273157]
+Model 79/100, Metric r2_score, Validation set 78: -0.301990
+	best_validation_score so far: -0.026155
+Fitting model 80/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_Scaffold/79
+computed_metrics: [-0.22502112456056755]
+Model 80/100, Metric r2_score, Validation set 79: -0.225021
+	best_validation_score so far: -0.026155
+Fitting model 81/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_Scaffold/80
+computed_metrics: [-0.5664637706501199]
+Model 81/100, Metric r2_score, Validation set 80: -0.566464
+	best_validation_score so far: -0.026155
+Fitting model 82/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_Scaffold/81
+computed_metrics: [-0.3027063667012684]
+Model 82/100, Metric r2_score, Validation set 81: -0.302706
+	best_validation_score so far: -0.026155
+Fitting model 83/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_Scaffold/82
+computed_metrics: [-0.31543810628639624]
+Model 83/100, Metric r2_score, Validation set 82: -0.315438
+	best_validation_score so far: -0.026155
+Fitting model 84/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_Scaffold/83
+computed_metrics: [-0.24959626224420917]
+Model 84/100, Metric r2_score, Validation set 83: -0.249596
+	best_validation_score so far: -0.026155
+Fitting model 85/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_Scaffold/84
+computed_metrics: [-0.24489767189008282]
+Model 85/100, Metric r2_score, Validation set 84: -0.244898
+	best_validation_score so far: -0.026155
+Fitting model 86/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_Scaffold/85
+computed_metrics: [-0.12148832021713041]
+Model 86/100, Metric r2_score, Validation set 85: -0.121488
+	best_validation_score so far: -0.026155
+Fitting model 87/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_Scaffold/86
+computed_metrics: [-0.16649843538720477]
+Model 87/100, Metric r2_score, Validation set 86: -0.166498
+	best_validation_score so far: -0.026155
+Fitting model 88/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_Scaffold/87
+computed_metrics: [-0.08804941821306023]
+Model 88/100, Metric r2_score, Validation set 87: -0.088049
+	best_validation_score so far: -0.026155
+Fitting model 89/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_Scaffold/88
+computed_metrics: [-0.12881312894279717]
+Model 89/100, Metric r2_score, Validation set 88: -0.128813
+	best_validation_score so far: -0.026155
+Fitting model 90/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_Scaffold/89
+computed_metrics: [-0.1114473016037143]
+Model 90/100, Metric r2_score, Validation set 89: -0.111447
+	best_validation_score so far: -0.026155
+Fitting model 91/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_Scaffold/90
+computed_metrics: [-0.25052677928319045]
+Model 91/100, Metric r2_score, Validation set 90: -0.250527
+	best_validation_score so far: -0.026155
+Fitting model 92/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_Scaffold/91
+computed_metrics: [-0.11914511177855114]
+Model 92/100, Metric r2_score, Validation set 91: -0.119145
+	best_validation_score so far: -0.026155
+Fitting model 93/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_Scaffold/92
+computed_metrics: [-0.18861075768101765]
+Model 93/100, Metric r2_score, Validation set 92: -0.188611
+	best_validation_score so far: -0.026155
+Fitting model 94/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_Scaffold/93
+computed_metrics: [-0.1183321482995483]
+Model 94/100, Metric r2_score, Validation set 93: -0.118332
+	best_validation_score so far: -0.026155
+Fitting model 95/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_Scaffold/94
+computed_metrics: [-0.1658577156461032]
+Model 95/100, Metric r2_score, Validation set 94: -0.165858
+	best_validation_score so far: -0.026155
+Fitting model 96/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_Scaffold/95
+computed_metrics: [-0.4416052316047616]
+Model 96/100, Metric r2_score, Validation set 95: -0.441605
+	best_validation_score so far: -0.026155
+Fitting model 97/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_Scaffold/96
+computed_metrics: [-0.14225834742119958]
+Model 97/100, Metric r2_score, Validation set 96: -0.142258
+	best_validation_score so far: -0.026155
+Fitting model 98/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_Scaffold/97
+computed_metrics: [-0.3080589077681739]
+Model 98/100, Metric r2_score, Validation set 97: -0.308059
+	best_validation_score so far: -0.026155
+Fitting model 99/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_Scaffold/98
+computed_metrics: [-0.18512935701902666]
+Model 99/100, Metric r2_score, Validation set 98: -0.185129
+	best_validation_score so far: -0.026155
+Fitting model 100/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_Scaffold/99
+computed_metrics: [-0.2347709987647688]
+Model 100/100, Metric r2_score, Validation set 99: -0.234771
+	best_validation_score so far: -0.026155
+computed_metrics: [0.4267700418798256]
+Best hyperparameters: (True, 20, 'log2', 3, 10, 20)
+train_score: 0.426770
+validation_score: -0.026155
+Scaffold
+Training   RMSE:0.26 Pearson:0.65
+Testing    RMSE:0.56 Pearson:0.00
+Validation RMSE:0.33 Pearson:0.00
+Loading raw samples now.
+About to start loading CSV from ../../../data/pki/CAMK2D_pki.csv
+Loading shard 1 of size 8192.
+Featurizing sample 0
+TIMING: featurizing shard 0 took 0.787 s
+TIMING: dataset construction took 0.798 s
+Loading dataset from disk.
+MaxMin
+Computing train/valid/test indices
+TIMING: dataset construction took 0.008 s
+Loading dataset from disk.
+TIMING: dataset construction took 0.006 s
+Loading dataset from disk.
+TIMING: dataset construction took 0.007 s
+Loading dataset from disk.
+TIMING: dataset construction took 0.009 s
+Loading dataset from disk.
+TIMING: dataset construction took 0.007 s
+Loading dataset from disk.
+TIMING: dataset construction took 0.006 s
+Loading dataset from disk.
+Fitting model 1/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_MaxMin/0
+computed_metrics: [-0.4754946554992385]
+Model 1/100, Metric r2_score, Validation set 0: -0.475495
+	best_validation_score so far: -0.475495
+Fitting model 2/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_MaxMin/1
+computed_metrics: [-0.680169481976636]
+Model 2/100, Metric r2_score, Validation set 1: -0.680169
+	best_validation_score so far: -0.475495
+Fitting model 3/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_MaxMin/2
+computed_metrics: [-0.6063454307091976]
+Model 3/100, Metric r2_score, Validation set 2: -0.606345
+	best_validation_score so far: -0.475495
+Fitting model 4/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_MaxMin/3
+computed_metrics: [-0.6242543227515416]
+Model 4/100, Metric r2_score, Validation set 3: -0.624254
+	best_validation_score so far: -0.475495
+Fitting model 5/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_MaxMin/4
+computed_metrics: [-0.5634972020665265]
+Model 5/100, Metric r2_score, Validation set 4: -0.563497
+	best_validation_score so far: -0.475495
+Fitting model 6/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_MaxMin/5
+computed_metrics: [-0.5961107484730637]
+Model 6/100, Metric r2_score, Validation set 5: -0.596111
+	best_validation_score so far: -0.475495
+Fitting model 7/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_MaxMin/6
+computed_metrics: [-0.7921376103659976]
+Model 7/100, Metric r2_score, Validation set 6: -0.792138
+	best_validation_score so far: -0.475495
+Fitting model 8/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_MaxMin/7
+computed_metrics: [-0.4134017200849647]
+Model 8/100, Metric r2_score, Validation set 7: -0.413402
+	best_validation_score so far: -0.413402
+Fitting model 9/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_MaxMin/8
+computed_metrics: [-0.4089022108269704]
+Model 9/100, Metric r2_score, Validation set 8: -0.408902
+	best_validation_score so far: -0.408902
+Fitting model 10/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_MaxMin/9
+computed_metrics: [-0.49137213077447006]
+Model 10/100, Metric r2_score, Validation set 9: -0.491372
+	best_validation_score so far: -0.408902
+Fitting model 11/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_MaxMin/10
+computed_metrics: [-0.42560791054198543]
+Model 11/100, Metric r2_score, Validation set 10: -0.425608
+	best_validation_score so far: -0.408902
+Fitting model 12/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_MaxMin/11
+computed_metrics: [-0.49971469890035425]
+Model 12/100, Metric r2_score, Validation set 11: -0.499715
+	best_validation_score so far: -0.408902
+Fitting model 13/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_MaxMin/12
+computed_metrics: [-0.4818821376307323]
+Model 13/100, Metric r2_score, Validation set 12: -0.481882
+	best_validation_score so far: -0.408902
+Fitting model 14/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_MaxMin/13
+computed_metrics: [-0.438061549705242]
+Model 14/100, Metric r2_score, Validation set 13: -0.438062
+	best_validation_score so far: -0.408902
+Fitting model 15/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_MaxMin/14
+computed_metrics: [-0.3647013680721811]
+Model 15/100, Metric r2_score, Validation set 14: -0.364701
+	best_validation_score so far: -0.364701
+Fitting model 16/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_MaxMin/15
+computed_metrics: [-0.7625582532575812]
+Model 16/100, Metric r2_score, Validation set 15: -0.762558
+	best_validation_score so far: -0.364701
+Fitting model 17/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_MaxMin/16
+computed_metrics: [-0.7122702194734651]
+Model 17/100, Metric r2_score, Validation set 16: -0.712270
+	best_validation_score so far: -0.364701
+Fitting model 18/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_MaxMin/17
+computed_metrics: [-0.6054972595560928]
+Model 18/100, Metric r2_score, Validation set 17: -0.605497
+	best_validation_score so far: -0.364701
+Fitting model 19/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_MaxMin/18
+computed_metrics: [-0.5690460658845355]
+Model 19/100, Metric r2_score, Validation set 18: -0.569046
+	best_validation_score so far: -0.364701
+Fitting model 20/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_MaxMin/19
+computed_metrics: [-0.6115851668946561]
+Model 20/100, Metric r2_score, Validation set 19: -0.611585
+	best_validation_score so far: -0.364701
+Fitting model 21/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_MaxMin/20
+computed_metrics: [-0.5967223787226128]
+Model 21/100, Metric r2_score, Validation set 20: -0.596722
+	best_validation_score so far: -0.364701
+Fitting model 22/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_MaxMin/21
+computed_metrics: [-0.6863340450107718]
+Model 22/100, Metric r2_score, Validation set 21: -0.686334
+	best_validation_score so far: -0.364701
+Fitting model 23/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_MaxMin/22
+computed_metrics: [-0.693382427998708]
+Model 23/100, Metric r2_score, Validation set 22: -0.693382
+	best_validation_score so far: -0.364701
+Fitting model 24/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_MaxMin/23
+computed_metrics: [-0.7160264380558286]
+Model 24/100, Metric r2_score, Validation set 23: -0.716026
+	best_validation_score so far: -0.364701
+Fitting model 25/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_MaxMin/24
+computed_metrics: [-0.5713917915463795]
+Model 25/100, Metric r2_score, Validation set 24: -0.571392
+	best_validation_score so far: -0.364701
+Fitting model 26/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_MaxMin/25
+computed_metrics: [-0.2964579790155568]
+Model 26/100, Metric r2_score, Validation set 25: -0.296458
+	best_validation_score so far: -0.296458
+Fitting model 27/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_MaxMin/26
+computed_metrics: [-0.26130638704147]
+Model 27/100, Metric r2_score, Validation set 26: -0.261306
+	best_validation_score so far: -0.261306
+Fitting model 28/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_MaxMin/27
+computed_metrics: [-0.5019943160684095]
+Model 28/100, Metric r2_score, Validation set 27: -0.501994
+	best_validation_score so far: -0.261306
+Fitting model 29/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_MaxMin/28
+computed_metrics: [-0.3484154847179295]
+Model 29/100, Metric r2_score, Validation set 28: -0.348415
+	best_validation_score so far: -0.261306
+Fitting model 30/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_MaxMin/29
+computed_metrics: [-0.5341839493074481]
+Model 30/100, Metric r2_score, Validation set 29: -0.534184
+	best_validation_score so far: -0.261306
+Fitting model 31/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_MaxMin/30
+computed_metrics: [-0.40125195186566076]
+Model 31/100, Metric r2_score, Validation set 30: -0.401252
+	best_validation_score so far: -0.261306
+Fitting model 32/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_MaxMin/31
+computed_metrics: [-0.42206170603621973]
+Model 32/100, Metric r2_score, Validation set 31: -0.422062
+	best_validation_score so far: -0.261306
+Fitting model 33/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_MaxMin/32
+computed_metrics: [-0.3334403107473025]
+Model 33/100, Metric r2_score, Validation set 32: -0.333440
+	best_validation_score so far: -0.261306
+Fitting model 34/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_MaxMin/33
+computed_metrics: [-0.44870195862644313]
+Model 34/100, Metric r2_score, Validation set 33: -0.448702
+	best_validation_score so far: -0.261306
+Fitting model 35/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_MaxMin/34
+computed_metrics: [-0.38797855849837015]
+Model 35/100, Metric r2_score, Validation set 34: -0.387979
+	best_validation_score so far: -0.261306
+Fitting model 36/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_MaxMin/35
+computed_metrics: [-0.7237590138084409]
+Model 36/100, Metric r2_score, Validation set 35: -0.723759
+	best_validation_score so far: -0.261306
+Fitting model 37/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_MaxMin/36
+computed_metrics: [-0.6330638702276581]
+Model 37/100, Metric r2_score, Validation set 36: -0.633064
+	best_validation_score so far: -0.261306
+Fitting model 38/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_MaxMin/37
+computed_metrics: [-0.685077099369229]
+Model 38/100, Metric r2_score, Validation set 37: -0.685077
+	best_validation_score so far: -0.261306
+Fitting model 39/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_MaxMin/38
+computed_metrics: [-0.5194157301496494]
+Model 39/100, Metric r2_score, Validation set 38: -0.519416
+	best_validation_score so far: -0.261306
+Fitting model 40/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_MaxMin/39
+computed_metrics: [-0.6039105251739316]
+Model 40/100, Metric r2_score, Validation set 39: -0.603911
+	best_validation_score so far: -0.261306
+Fitting model 41/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_MaxMin/40
+computed_metrics: [-0.6842489481747029]
+Model 41/100, Metric r2_score, Validation set 40: -0.684249
+	best_validation_score so far: -0.261306
+Fitting model 42/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_MaxMin/41
+computed_metrics: [-0.6845131976634538]
+Model 42/100, Metric r2_score, Validation set 41: -0.684513
+	best_validation_score so far: -0.261306
+Fitting model 43/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_MaxMin/42
+computed_metrics: [-0.5681794401079872]
+Model 43/100, Metric r2_score, Validation set 42: -0.568179
+	best_validation_score so far: -0.261306
+Fitting model 44/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_MaxMin/43
+computed_metrics: [-0.5903282553280487]
+Model 44/100, Metric r2_score, Validation set 43: -0.590328
+	best_validation_score so far: -0.261306
+Fitting model 45/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_MaxMin/44
+computed_metrics: [-0.6906283913340381]
+Model 45/100, Metric r2_score, Validation set 44: -0.690628
+	best_validation_score so far: -0.261306
+Fitting model 46/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_MaxMin/45
+computed_metrics: [-0.5659679769938408]
+Model 46/100, Metric r2_score, Validation set 45: -0.565968
+	best_validation_score so far: -0.261306
+Fitting model 47/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_MaxMin/46
+computed_metrics: [-0.6058903056535188]
+Model 47/100, Metric r2_score, Validation set 46: -0.605890
+	best_validation_score so far: -0.261306
+Fitting model 48/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_MaxMin/47
+computed_metrics: [-0.660506603228731]
+Model 48/100, Metric r2_score, Validation set 47: -0.660507
+	best_validation_score so far: -0.261306
+Fitting model 49/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_MaxMin/48
+computed_metrics: [-0.4036879978857779]
+Model 49/100, Metric r2_score, Validation set 48: -0.403688
+	best_validation_score so far: -0.261306
+Fitting model 50/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_MaxMin/49
+computed_metrics: [-0.4526508421776507]
+Model 50/100, Metric r2_score, Validation set 49: -0.452651
+	best_validation_score so far: -0.261306
+Fitting model 51/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_MaxMin/50
+computed_metrics: [-0.43501798559677063]
+Model 51/100, Metric r2_score, Validation set 50: -0.435018
+	best_validation_score so far: -0.261306
+Fitting model 52/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_MaxMin/51
+computed_metrics: [-0.35702255934366756]
+Model 52/100, Metric r2_score, Validation set 51: -0.357023
+	best_validation_score so far: -0.261306
+Fitting model 53/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_MaxMin/52
+computed_metrics: [-0.39872854087811094]
+Model 53/100, Metric r2_score, Validation set 52: -0.398729
+	best_validation_score so far: -0.261306
+Fitting model 54/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_MaxMin/53
+computed_metrics: [-0.3953265031414466]
+Model 54/100, Metric r2_score, Validation set 53: -0.395327
+	best_validation_score so far: -0.261306
+Fitting model 55/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_MaxMin/54
+computed_metrics: [-0.40118675175545926]
+Model 55/100, Metric r2_score, Validation set 54: -0.401187
+	best_validation_score so far: -0.261306
+Fitting model 56/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_MaxMin/55
+computed_metrics: [-0.3807595010215781]
+Model 56/100, Metric r2_score, Validation set 55: -0.380760
+	best_validation_score so far: -0.261306
+Fitting model 57/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_MaxMin/56
+computed_metrics: [-0.6609257487254363]
+Model 57/100, Metric r2_score, Validation set 56: -0.660926
+	best_validation_score so far: -0.261306
+Fitting model 58/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_MaxMin/57
+computed_metrics: [-0.5112225159069148]
+Model 58/100, Metric r2_score, Validation set 57: -0.511223
+	best_validation_score so far: -0.261306
+Fitting model 59/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_MaxMin/58
+computed_metrics: [-0.6481569361480828]
+Model 59/100, Metric r2_score, Validation set 58: -0.648157
+	best_validation_score so far: -0.261306
+Fitting model 60/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_MaxMin/59
+computed_metrics: [-0.6482336502179329]
+Model 60/100, Metric r2_score, Validation set 59: -0.648234
+	best_validation_score so far: -0.261306
+Fitting model 61/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_MaxMin/60
+computed_metrics: [-0.4426607387704853]
+Model 61/100, Metric r2_score, Validation set 60: -0.442661
+	best_validation_score so far: -0.261306
+Fitting model 62/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_MaxMin/61
+computed_metrics: [-0.7205893987171006]
+Model 62/100, Metric r2_score, Validation set 61: -0.720589
+	best_validation_score so far: -0.261306
+Fitting model 63/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_MaxMin/62
+computed_metrics: [-0.624710565692481]
+Model 63/100, Metric r2_score, Validation set 62: -0.624711
+	best_validation_score so far: -0.261306
+Fitting model 64/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_MaxMin/63
+computed_metrics: [-0.7496833282447819]
+Model 64/100, Metric r2_score, Validation set 63: -0.749683
+	best_validation_score so far: -0.261306
+Fitting model 65/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_MaxMin/64
+computed_metrics: [-0.6331747997430943]
+Model 65/100, Metric r2_score, Validation set 64: -0.633175
+	best_validation_score so far: -0.261306
+Fitting model 66/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_MaxMin/65
+computed_metrics: [-0.34658687171013125]
+Model 66/100, Metric r2_score, Validation set 65: -0.346587
+	best_validation_score so far: -0.261306
+Fitting model 67/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_MaxMin/66
+computed_metrics: [-0.46837758024754894]
+Model 67/100, Metric r2_score, Validation set 66: -0.468378
+	best_validation_score so far: -0.261306
+Fitting model 68/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_MaxMin/67
+computed_metrics: [-0.3802223721378195]
+Model 68/100, Metric r2_score, Validation set 67: -0.380222
+	best_validation_score so far: -0.261306
+Fitting model 69/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_MaxMin/68
+computed_metrics: [-0.522097490350877]
+Model 69/100, Metric r2_score, Validation set 68: -0.522097
+	best_validation_score so far: -0.261306
+Fitting model 70/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_MaxMin/69
+computed_metrics: [-0.4169573923504042]
+Model 70/100, Metric r2_score, Validation set 69: -0.416957
+	best_validation_score so far: -0.261306
+Fitting model 71/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_MaxMin/70
+computed_metrics: [-0.438919168893654]
+Model 71/100, Metric r2_score, Validation set 70: -0.438919
+	best_validation_score so far: -0.261306
+Fitting model 72/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_MaxMin/71
+computed_metrics: [-0.5570106292639811]
+Model 72/100, Metric r2_score, Validation set 71: -0.557011
+	best_validation_score so far: -0.261306
+Fitting model 73/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_MaxMin/72
+computed_metrics: [-0.5265342739013561]
+Model 73/100, Metric r2_score, Validation set 72: -0.526534
+	best_validation_score so far: -0.261306
+Fitting model 74/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_MaxMin/73
+computed_metrics: [-0.4560649476354146]
+Model 74/100, Metric r2_score, Validation set 73: -0.456065
+	best_validation_score so far: -0.261306
+Fitting model 75/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_MaxMin/74
+computed_metrics: [-0.48323101958518855]
+Model 75/100, Metric r2_score, Validation set 74: -0.483231
+	best_validation_score so far: -0.261306
+Fitting model 76/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_MaxMin/75
+computed_metrics: [-0.7852959248148794]
+Model 76/100, Metric r2_score, Validation set 75: -0.785296
+	best_validation_score so far: -0.261306
+Fitting model 77/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_MaxMin/76
+computed_metrics: [-0.8090243989200832]
+Model 77/100, Metric r2_score, Validation set 76: -0.809024
+	best_validation_score so far: -0.261306
+Fitting model 78/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_MaxMin/77
+computed_metrics: [-0.6279415390020424]
+Model 78/100, Metric r2_score, Validation set 77: -0.627942
+	best_validation_score so far: -0.261306
+Fitting model 79/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_MaxMin/78
+computed_metrics: [-0.6914572183671506]
+Model 79/100, Metric r2_score, Validation set 78: -0.691457
+	best_validation_score so far: -0.261306
+Fitting model 80/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_MaxMin/79
+computed_metrics: [-0.5428256078669302]
+Model 80/100, Metric r2_score, Validation set 79: -0.542826
+	best_validation_score so far: -0.261306
+Fitting model 81/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_MaxMin/80
+computed_metrics: [-0.6274912397416239]
+Model 81/100, Metric r2_score, Validation set 80: -0.627491
+	best_validation_score so far: -0.261306
+Fitting model 82/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_MaxMin/81
+computed_metrics: [-0.5607917119423045]
+Model 82/100, Metric r2_score, Validation set 81: -0.560792
+	best_validation_score so far: -0.261306
+Fitting model 83/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_MaxMin/82
+computed_metrics: [-0.5085074873529563]
+Model 83/100, Metric r2_score, Validation set 82: -0.508507
+	best_validation_score so far: -0.261306
+Fitting model 84/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_MaxMin/83
+computed_metrics: [-0.5791135134108305]
+Model 84/100, Metric r2_score, Validation set 83: -0.579114
+	best_validation_score so far: -0.261306
+Fitting model 85/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_MaxMin/84
+computed_metrics: [-0.6182870071212576]
+Model 85/100, Metric r2_score, Validation set 84: -0.618287
+	best_validation_score so far: -0.261306
+Fitting model 86/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_MaxMin/85
+computed_metrics: [-0.5028399468764426]
+Model 86/100, Metric r2_score, Validation set 85: -0.502840
+	best_validation_score so far: -0.261306
+Fitting model 87/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_MaxMin/86
+computed_metrics: [-0.5855551081680599]
+Model 87/100, Metric r2_score, Validation set 86: -0.585555
+	best_validation_score so far: -0.261306
+Fitting model 88/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_MaxMin/87
+computed_metrics: [-0.5273212352402807]
+Model 88/100, Metric r2_score, Validation set 87: -0.527321
+	best_validation_score so far: -0.261306
+Fitting model 89/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_MaxMin/88
+computed_metrics: [-0.430641323986777]
+Model 89/100, Metric r2_score, Validation set 88: -0.430641
+	best_validation_score so far: -0.261306
+Fitting model 90/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_MaxMin/89
+computed_metrics: [-0.4469955049272878]
+Model 90/100, Metric r2_score, Validation set 89: -0.446996
+	best_validation_score so far: -0.261306
+Fitting model 91/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_MaxMin/90
+computed_metrics: [-0.4233627781000193]
+Model 91/100, Metric r2_score, Validation set 90: -0.423363
+	best_validation_score so far: -0.261306
+Fitting model 92/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_MaxMin/91
+computed_metrics: [-0.4252585261512498]
+Model 92/100, Metric r2_score, Validation set 91: -0.425259
+	best_validation_score so far: -0.261306
+Fitting model 93/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_MaxMin/92
+computed_metrics: [-0.3379262966175183]
+Model 93/100, Metric r2_score, Validation set 92: -0.337926
+	best_validation_score so far: -0.261306
+Fitting model 94/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_MaxMin/93
+computed_metrics: [-0.34535336033957]
+Model 94/100, Metric r2_score, Validation set 93: -0.345353
+	best_validation_score so far: -0.261306
+Fitting model 95/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_MaxMin/94
+computed_metrics: [-0.39477565361169775]
+Model 95/100, Metric r2_score, Validation set 94: -0.394776
+	best_validation_score so far: -0.261306
+Fitting model 96/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_MaxMin/95
+computed_metrics: [-0.9643138555476838]
+Model 96/100, Metric r2_score, Validation set 95: -0.964314
+	best_validation_score so far: -0.261306
+Fitting model 97/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_MaxMin/96
+computed_metrics: [-0.46984657008507513]
+Model 97/100, Metric r2_score, Validation set 96: -0.469847
+	best_validation_score so far: -0.261306
+Fitting model 98/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_MaxMin/97
+computed_metrics: [-0.7510832865930175]
+Model 98/100, Metric r2_score, Validation set 97: -0.751083
+	best_validation_score so far: -0.261306
+Fitting model 99/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_MaxMin/98
+computed_metrics: [-0.7723171578426453]
+Model 99/100, Metric r2_score, Validation set 98: -0.772317
+	best_validation_score so far: -0.261306
+Fitting model 100/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_MaxMin/99
+computed_metrics: [-0.6456165011051545]
+Model 100/100, Metric r2_score, Validation set 99: -0.645617
+	best_validation_score so far: -0.261306
+computed_metrics: [0.49580995820802976]
+Best hyperparameters: (True, 10, 'sqrt', 3, 10, 20)
+train_score: 0.495810
+validation_score: -0.261306
+MaxMin
+Training   RMSE:0.26 Pearson:0.70
+Testing    RMSE:0.37 Pearson:0.28
+Validation RMSE:0.32 Pearson:0.00
+Loading raw samples now.
+About to start loading CSV from ../../../data/pki/CAMK2D_pki.csv
+Loading shard 1 of size 8192.
+Featurizing sample 0
+TIMING: featurizing shard 0 took 0.785 s
+TIMING: dataset construction took 0.795 s
+Loading dataset from disk.
+FingerPrint
+Computing train/valid/test indices
+TIMING: dataset construction took 0.009 s
+Loading dataset from disk.
+TIMING: dataset construction took 0.005 s
+Loading dataset from disk.
+TIMING: dataset construction took 0.008 s
+Loading dataset from disk.
+TIMING: dataset construction took 0.008 s
+Loading dataset from disk.
+TIMING: dataset construction took 0.005 s
+Loading dataset from disk.
+TIMING: dataset construction took 0.007 s
+Loading dataset from disk.
+Fitting model 1/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_FingerPrint/0
+computed_metrics: [-0.13836686602781478]
+Model 1/100, Metric r2_score, Validation set 0: -0.138367
+	best_validation_score so far: -0.138367
+Fitting model 2/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_FingerPrint/1
+computed_metrics: [-0.1688370229440841]
+Model 2/100, Metric r2_score, Validation set 1: -0.168837
+	best_validation_score so far: -0.138367
+Fitting model 3/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_FingerPrint/2
+computed_metrics: [-0.1399392014740486]
+Model 3/100, Metric r2_score, Validation set 2: -0.139939
+	best_validation_score so far: -0.138367
+Fitting model 4/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_FingerPrint/3
+computed_metrics: [-0.12017143672387598]
+Model 4/100, Metric r2_score, Validation set 3: -0.120171
+	best_validation_score so far: -0.120171
+Fitting model 5/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_FingerPrint/4
+computed_metrics: [-0.0712331825230017]
+Model 5/100, Metric r2_score, Validation set 4: -0.071233
+	best_validation_score so far: -0.071233
+Fitting model 6/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_FingerPrint/5
+computed_metrics: [-0.09939298376956551]
+Model 6/100, Metric r2_score, Validation set 5: -0.099393
+	best_validation_score so far: -0.071233
+Fitting model 7/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_FingerPrint/6
+computed_metrics: [-0.06757939169591465]
+Model 7/100, Metric r2_score, Validation set 6: -0.067579
+	best_validation_score so far: -0.067579
+Fitting model 8/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_FingerPrint/7
+computed_metrics: [-0.021446198055853793]
+Model 8/100, Metric r2_score, Validation set 7: -0.021446
+	best_validation_score so far: -0.021446
+Fitting model 9/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_FingerPrint/8
+computed_metrics: [-0.11264059635467927]
+Model 9/100, Metric r2_score, Validation set 8: -0.112641
+	best_validation_score so far: -0.021446
+Fitting model 10/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_FingerPrint/9
+computed_metrics: [-0.08407471770932484]
+Model 10/100, Metric r2_score, Validation set 9: -0.084075
+	best_validation_score so far: -0.021446
+Fitting model 11/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_FingerPrint/10
+computed_metrics: [-0.26479446576033894]
+Model 11/100, Metric r2_score, Validation set 10: -0.264794
+	best_validation_score so far: -0.021446
+Fitting model 12/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_FingerPrint/11
+computed_metrics: [-0.12322027568396843]
+Model 12/100, Metric r2_score, Validation set 11: -0.123220
+	best_validation_score so far: -0.021446
+Fitting model 13/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_FingerPrint/12
+computed_metrics: [-0.025382355332542073]
+Model 13/100, Metric r2_score, Validation set 12: -0.025382
+	best_validation_score so far: -0.021446
+Fitting model 14/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_FingerPrint/13
+computed_metrics: [-0.07913941167113592]
+Model 14/100, Metric r2_score, Validation set 13: -0.079139
+	best_validation_score so far: -0.021446
+Fitting model 15/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_FingerPrint/14
+computed_metrics: [-0.09488543021211404]
+Model 15/100, Metric r2_score, Validation set 14: -0.094885
+	best_validation_score so far: -0.021446
+Fitting model 16/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_FingerPrint/15
+computed_metrics: [-0.21920304990159867]
+Model 16/100, Metric r2_score, Validation set 15: -0.219203
+	best_validation_score so far: -0.021446
+Fitting model 17/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_FingerPrint/16
+computed_metrics: [-0.11432649985893373]
+Model 17/100, Metric r2_score, Validation set 16: -0.114326
+	best_validation_score so far: -0.021446
+Fitting model 18/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_FingerPrint/17
+computed_metrics: [-0.1989865976269254]
+Model 18/100, Metric r2_score, Validation set 17: -0.198987
+	best_validation_score so far: -0.021446
+Fitting model 19/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_FingerPrint/18
+computed_metrics: [-0.099184096834249]
+Model 19/100, Metric r2_score, Validation set 18: -0.099184
+	best_validation_score so far: -0.021446
+Fitting model 20/100
+hyperparameters: {'bootstrap': True, 'max_depth': 5, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_FingerPrint/19
+computed_metrics: [-0.10876549467065821]
+Model 20/100, Metric r2_score, Validation set 19: -0.108765
+	best_validation_score so far: -0.021446
+Fitting model 21/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_FingerPrint/20
+computed_metrics: [0.003895130861837348]
+Model 21/100, Metric r2_score, Validation set 20: 0.003895
+	best_validation_score so far: 0.003895
+Fitting model 22/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_FingerPrint/21
+computed_metrics: [-0.08286241952824724]
+Model 22/100, Metric r2_score, Validation set 21: -0.082862
+	best_validation_score so far: 0.003895
+Fitting model 23/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_FingerPrint/22
+computed_metrics: [-0.10079266123131148]
+Model 23/100, Metric r2_score, Validation set 22: -0.100793
+	best_validation_score so far: 0.003895
+Fitting model 24/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_FingerPrint/23
+computed_metrics: [-0.11480338324343564]
+Model 24/100, Metric r2_score, Validation set 23: -0.114803
+	best_validation_score so far: 0.003895
+Fitting model 25/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_FingerPrint/24
+computed_metrics: [-0.0827658866902381]
+Model 25/100, Metric r2_score, Validation set 24: -0.082766
+	best_validation_score so far: 0.003895
+Fitting model 26/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_FingerPrint/25
+computed_metrics: [-0.2713963257067076]
+Model 26/100, Metric r2_score, Validation set 25: -0.271396
+	best_validation_score so far: 0.003895
+Fitting model 27/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_FingerPrint/26
+computed_metrics: [-0.008624920924010793]
+Model 27/100, Metric r2_score, Validation set 26: -0.008625
+	best_validation_score so far: 0.003895
+Fitting model 28/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_FingerPrint/27
+computed_metrics: [-0.09966868203246948]
+Model 28/100, Metric r2_score, Validation set 27: -0.099669
+	best_validation_score so far: 0.003895
+Fitting model 29/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_FingerPrint/28
+computed_metrics: [-0.08057945403466205]
+Model 29/100, Metric r2_score, Validation set 28: -0.080579
+	best_validation_score so far: 0.003895
+Fitting model 30/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_FingerPrint/29
+computed_metrics: [-0.10983530256378482]
+Model 30/100, Metric r2_score, Validation set 29: -0.109835
+	best_validation_score so far: 0.003895
+Fitting model 31/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_FingerPrint/30
+computed_metrics: [-0.1282006938723259]
+Model 31/100, Metric r2_score, Validation set 30: -0.128201
+	best_validation_score so far: 0.003895
+Fitting model 32/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_FingerPrint/31
+computed_metrics: [-0.07676490114366086]
+Model 32/100, Metric r2_score, Validation set 31: -0.076765
+	best_validation_score so far: 0.003895
+Fitting model 33/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_FingerPrint/32
+computed_metrics: [-0.17085991489462482]
+Model 33/100, Metric r2_score, Validation set 32: -0.170860
+	best_validation_score so far: 0.003895
+Fitting model 34/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_FingerPrint/33
+computed_metrics: [0.023812296296825686]
+Model 34/100, Metric r2_score, Validation set 33: 0.023812
+	best_validation_score so far: 0.023812
+Fitting model 35/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_FingerPrint/34
+computed_metrics: [-0.08731128716798864]
+Model 35/100, Metric r2_score, Validation set 34: -0.087311
+	best_validation_score so far: 0.023812
+Fitting model 36/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_FingerPrint/35
+computed_metrics: [-0.006606609633809324]
+Model 36/100, Metric r2_score, Validation set 35: -0.006607
+	best_validation_score so far: 0.023812
+Fitting model 37/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_FingerPrint/36
+computed_metrics: [-0.06283454807541222]
+Model 37/100, Metric r2_score, Validation set 36: -0.062835
+	best_validation_score so far: 0.023812
+Fitting model 38/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_FingerPrint/37
+computed_metrics: [-0.07237970893073764]
+Model 38/100, Metric r2_score, Validation set 37: -0.072380
+	best_validation_score so far: 0.023812
+Fitting model 39/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_FingerPrint/38
+computed_metrics: [-0.16073026811908098]
+Model 39/100, Metric r2_score, Validation set 38: -0.160730
+	best_validation_score so far: 0.023812
+Fitting model 40/100
+hyperparameters: {'bootstrap': True, 'max_depth': 10, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_FingerPrint/39
+computed_metrics: [-0.10392791490183817]
+Model 40/100, Metric r2_score, Validation set 39: -0.103928
+	best_validation_score so far: 0.023812
+Fitting model 41/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_FingerPrint/40
+computed_metrics: [-0.1104866144600194]
+Model 41/100, Metric r2_score, Validation set 40: -0.110487
+	best_validation_score so far: 0.023812
+Fitting model 42/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_FingerPrint/41
+computed_metrics: [-0.07371272651097094]
+Model 42/100, Metric r2_score, Validation set 41: -0.073713
+	best_validation_score so far: 0.023812
+Fitting model 43/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_FingerPrint/42
+computed_metrics: [-0.0953294122095929]
+Model 43/100, Metric r2_score, Validation set 42: -0.095329
+	best_validation_score so far: 0.023812
+Fitting model 44/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_FingerPrint/43
+computed_metrics: [-0.07778411890211956]
+Model 44/100, Metric r2_score, Validation set 43: -0.077784
+	best_validation_score so far: 0.023812
+Fitting model 45/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_FingerPrint/44
+computed_metrics: [-0.12389605643347057]
+Model 45/100, Metric r2_score, Validation set 44: -0.123896
+	best_validation_score so far: 0.023812
+Fitting model 46/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_FingerPrint/45
+computed_metrics: [-0.1628511383415463]
+Model 46/100, Metric r2_score, Validation set 45: -0.162851
+	best_validation_score so far: 0.023812
+Fitting model 47/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_FingerPrint/46
+computed_metrics: [-0.019986793889523513]
+Model 47/100, Metric r2_score, Validation set 46: -0.019987
+	best_validation_score so far: 0.023812
+Fitting model 48/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_FingerPrint/47
+computed_metrics: [-0.16265858680238532]
+Model 48/100, Metric r2_score, Validation set 47: -0.162659
+	best_validation_score so far: 0.023812
+Fitting model 49/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_FingerPrint/48
+computed_metrics: [-0.06735091401219573]
+Model 49/100, Metric r2_score, Validation set 48: -0.067351
+	best_validation_score so far: 0.023812
+Fitting model 50/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_FingerPrint/49
+computed_metrics: [-0.08660454820122632]
+Model 50/100, Metric r2_score, Validation set 49: -0.086605
+	best_validation_score so far: 0.023812
+Fitting model 51/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_FingerPrint/50
+computed_metrics: [-0.13450358987364863]
+Model 51/100, Metric r2_score, Validation set 50: -0.134504
+	best_validation_score so far: 0.023812
+Fitting model 52/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_FingerPrint/51
+computed_metrics: [-0.06652174199198457]
+Model 52/100, Metric r2_score, Validation set 51: -0.066522
+	best_validation_score so far: 0.023812
+Fitting model 53/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_FingerPrint/52
+computed_metrics: [-0.08129795089443359]
+Model 53/100, Metric r2_score, Validation set 52: -0.081298
+	best_validation_score so far: 0.023812
+Fitting model 54/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_FingerPrint/53
+computed_metrics: [-0.07797204334681274]
+Model 54/100, Metric r2_score, Validation set 53: -0.077972
+	best_validation_score so far: 0.023812
+Fitting model 55/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_FingerPrint/54
+computed_metrics: [-0.06854151388148644]
+Model 55/100, Metric r2_score, Validation set 54: -0.068542
+	best_validation_score so far: 0.023812
+Fitting model 56/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_FingerPrint/55
+computed_metrics: [-0.13064344135770067]
+Model 56/100, Metric r2_score, Validation set 55: -0.130643
+	best_validation_score so far: 0.023812
+Fitting model 57/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_FingerPrint/56
+computed_metrics: [-0.05803629547133893]
+Model 57/100, Metric r2_score, Validation set 56: -0.058036
+	best_validation_score so far: 0.023812
+Fitting model 58/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_FingerPrint/57
+computed_metrics: [-0.17424274686955998]
+Model 58/100, Metric r2_score, Validation set 57: -0.174243
+	best_validation_score so far: 0.023812
+Fitting model 59/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_FingerPrint/58
+computed_metrics: [-0.1294707103647832]
+Model 59/100, Metric r2_score, Validation set 58: -0.129471
+	best_validation_score so far: 0.023812
+Fitting model 60/100
+hyperparameters: {'bootstrap': True, 'max_depth': 20, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_FingerPrint/59
+computed_metrics: [-0.11035086813384809]
+Model 60/100, Metric r2_score, Validation set 59: -0.110351
+	best_validation_score so far: 0.023812
+Fitting model 61/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_FingerPrint/60
+computed_metrics: [-0.09415586978265855]
+Model 61/100, Metric r2_score, Validation set 60: -0.094156
+	best_validation_score so far: 0.023812
+Fitting model 62/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_FingerPrint/61
+computed_metrics: [-0.12873033272638912]
+Model 62/100, Metric r2_score, Validation set 61: -0.128730
+	best_validation_score so far: 0.023812
+Fitting model 63/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_FingerPrint/62
+computed_metrics: [0.057235366405363086]
+Model 63/100, Metric r2_score, Validation set 62: 0.057235
+	best_validation_score so far: 0.057235
+Fitting model 64/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_FingerPrint/63
+computed_metrics: [-0.056128223730359084]
+Model 64/100, Metric r2_score, Validation set 63: -0.056128
+	best_validation_score so far: 0.057235
+Fitting model 65/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_FingerPrint/64
+computed_metrics: [-0.1505674268463164]
+Model 65/100, Metric r2_score, Validation set 64: -0.150567
+	best_validation_score so far: 0.057235
+Fitting model 66/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_FingerPrint/65
+computed_metrics: [-0.08499789230063692]
+Model 66/100, Metric r2_score, Validation set 65: -0.084998
+	best_validation_score so far: 0.057235
+Fitting model 67/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_FingerPrint/66
+computed_metrics: [-0.10994876319195934]
+Model 67/100, Metric r2_score, Validation set 66: -0.109949
+	best_validation_score so far: 0.057235
+Fitting model 68/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_FingerPrint/67
+computed_metrics: [-0.06680910646416294]
+Model 68/100, Metric r2_score, Validation set 67: -0.066809
+	best_validation_score so far: 0.057235
+Fitting model 69/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_FingerPrint/68
+computed_metrics: [-0.09789566019999119]
+Model 69/100, Metric r2_score, Validation set 68: -0.097896
+	best_validation_score so far: 0.057235
+Fitting model 70/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_FingerPrint/69
+computed_metrics: [-0.07312293500247913]
+Model 70/100, Metric r2_score, Validation set 69: -0.073123
+	best_validation_score so far: 0.057235
+Fitting model 71/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_FingerPrint/70
+computed_metrics: [-0.2397220589084963]
+Model 71/100, Metric r2_score, Validation set 70: -0.239722
+	best_validation_score so far: 0.057235
+Fitting model 72/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_FingerPrint/71
+computed_metrics: [-0.0747738729517009]
+Model 72/100, Metric r2_score, Validation set 71: -0.074774
+	best_validation_score so far: 0.057235
+Fitting model 73/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_FingerPrint/72
+computed_metrics: [-0.12308551329938378]
+Model 73/100, Metric r2_score, Validation set 72: -0.123086
+	best_validation_score so far: 0.057235
+Fitting model 74/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_FingerPrint/73
+computed_metrics: [-0.08936454926249282]
+Model 74/100, Metric r2_score, Validation set 73: -0.089365
+	best_validation_score so far: 0.057235
+Fitting model 75/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_FingerPrint/74
+computed_metrics: [-0.0759091988741023]
+Model 75/100, Metric r2_score, Validation set 74: -0.075909
+	best_validation_score so far: 0.057235
+Fitting model 76/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_FingerPrint/75
+computed_metrics: [-0.1387769781368886]
+Model 76/100, Metric r2_score, Validation set 75: -0.138777
+	best_validation_score so far: 0.057235
+Fitting model 77/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_FingerPrint/76
+computed_metrics: [-0.12703656249189765]
+Model 77/100, Metric r2_score, Validation set 76: -0.127037
+	best_validation_score so far: 0.057235
+Fitting model 78/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_FingerPrint/77
+computed_metrics: [-0.12477586353268588]
+Model 78/100, Metric r2_score, Validation set 77: -0.124776
+	best_validation_score so far: 0.057235
+Fitting model 79/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_FingerPrint/78
+computed_metrics: [-0.14653903372283272]
+Model 79/100, Metric r2_score, Validation set 78: -0.146539
+	best_validation_score so far: 0.057235
+Fitting model 80/100
+hyperparameters: {'bootstrap': True, 'max_depth': 25, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_FingerPrint/79
+computed_metrics: [-0.12038441412629908]
+Model 80/100, Metric r2_score, Validation set 79: -0.120384
+	best_validation_score so far: 0.057235
+Fitting model 81/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_FingerPrint/80
+computed_metrics: [-0.2898108768372267]
+Model 81/100, Metric r2_score, Validation set 80: -0.289811
+	best_validation_score so far: 0.057235
+Fitting model 82/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_FingerPrint/81
+computed_metrics: [-0.024701315124599832]
+Model 82/100, Metric r2_score, Validation set 81: -0.024701
+	best_validation_score so far: 0.057235
+Fitting model 83/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_FingerPrint/82
+computed_metrics: [-0.0802410374968332]
+Model 83/100, Metric r2_score, Validation set 82: -0.080241
+	best_validation_score so far: 0.057235
+Fitting model 84/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_FingerPrint/83
+computed_metrics: [-0.17754970326481856]
+Model 84/100, Metric r2_score, Validation set 83: -0.177550
+	best_validation_score so far: 0.057235
+Fitting model 85/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'auto', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_FingerPrint/84
+computed_metrics: [-0.1537410943533628]
+Model 85/100, Metric r2_score, Validation set 84: -0.153741
+	best_validation_score so far: 0.057235
+Fitting model 86/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_FingerPrint/85
+computed_metrics: [-0.06804888543197474]
+Model 86/100, Metric r2_score, Validation set 85: -0.068049
+	best_validation_score so far: 0.057235
+Fitting model 87/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_FingerPrint/86
+computed_metrics: [-0.10576517261646967]
+Model 87/100, Metric r2_score, Validation set 86: -0.105765
+	best_validation_score so far: 0.057235
+Fitting model 88/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_FingerPrint/87
+computed_metrics: [-0.12352016594102033]
+Model 88/100, Metric r2_score, Validation set 87: -0.123520
+	best_validation_score so far: 0.057235
+Fitting model 89/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_FingerPrint/88
+computed_metrics: [-0.03801557103099995]
+Model 89/100, Metric r2_score, Validation set 88: -0.038016
+	best_validation_score so far: 0.057235
+Fitting model 90/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_FingerPrint/89
+computed_metrics: [-0.10007777475533608]
+Model 90/100, Metric r2_score, Validation set 89: -0.100078
+	best_validation_score so far: 0.057235
+Fitting model 91/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_FingerPrint/90
+computed_metrics: [0.022040260263780365]
+Model 91/100, Metric r2_score, Validation set 90: 0.022040
+	best_validation_score so far: 0.057235
+Fitting model 92/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_FingerPrint/91
+computed_metrics: [-0.105302701881826]
+Model 92/100, Metric r2_score, Validation set 91: -0.105303
+	best_validation_score so far: 0.057235
+Fitting model 93/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_FingerPrint/92
+computed_metrics: [-0.03657132440977029]
+Model 93/100, Metric r2_score, Validation set 92: -0.036571
+	best_validation_score so far: 0.057235
+Fitting model 94/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_FingerPrint/93
+computed_metrics: [-0.07315316527645521]
+Model 94/100, Metric r2_score, Validation set 93: -0.073153
+	best_validation_score so far: 0.057235
+Fitting model 95/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_FingerPrint/94
+computed_metrics: [-0.06197413690370235]
+Model 95/100, Metric r2_score, Validation set 94: -0.061974
+	best_validation_score so far: 0.057235
+Fitting model 96/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 10}
+model_dir is opt_model_CAMK2D_FingerPrint/95
+computed_metrics: [-0.28656010080792726]
+Model 96/100, Metric r2_score, Validation set 95: -0.286560
+	best_validation_score so far: 0.057235
+Fitting model 97/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 20}
+model_dir is opt_model_CAMK2D_FingerPrint/96
+computed_metrics: [-0.10366881916795845]
+Model 97/100, Metric r2_score, Validation set 96: -0.103669
+	best_validation_score so far: 0.057235
+Fitting model 98/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 25}
+model_dir is opt_model_CAMK2D_FingerPrint/97
+computed_metrics: [-0.19821146368255027]
+Model 98/100, Metric r2_score, Validation set 97: -0.198211
+	best_validation_score so far: 0.057235
+Fitting model 99/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 50}
+model_dir is opt_model_CAMK2D_FingerPrint/98
+computed_metrics: [-0.13087403753862903]
+Model 99/100, Metric r2_score, Validation set 98: -0.130874
+	best_validation_score so far: 0.057235
+Fitting model 100/100
+hyperparameters: {'bootstrap': True, 'max_depth': 50, 'max_features': None, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+model_dir is opt_model_CAMK2D_FingerPrint/99
+computed_metrics: [-0.0871829686458856]
+Model 100/100, Metric r2_score, Validation set 99: -0.087183
+	best_validation_score so far: 0.057235
+computed_metrics: [0.6831747713771532]
+Best hyperparameters: (True, 25, 'auto', 3, 10, 25)
+train_score: 0.683175
+validation_score: 0.057235
+FingerPrint
+Training   RMSE:0.16 Pearson:0.83
+Testing    RMSE:0.30 Pearson:0.00
+Validation RMSE:0.51 Pearson:0.24

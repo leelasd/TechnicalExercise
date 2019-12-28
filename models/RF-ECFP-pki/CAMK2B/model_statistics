@@ -1,0 +1,43 @@
+Best hyperparameters: (True, 5, None, 3, 10, 20)
+train_score: 0.614947
+validation_score: 0.214384
+RandomStratified
+Training   RMSE:0.05 Pearson:0.78
+Testing    RMSE:0.27 Pearson:0.44
+Validation RMSE:0.15 Pearson:0.46
+Loading raw samples now.
+About to start loading CSV from ../../../data/pki/CAMK2B_pki.csv
+Loading shard 1 of size 8192.
+Featurizing sample 0
+--
+Best hyperparameters: (True, 20, 'sqrt', 3, 10, 10)
+train_score: 0.628279
+validation_score: 0.184517
+Scaffold
+Training   RMSE:0.08 Pearson:0.79
+Testing    RMSE:0.19 Pearson:0.00
+Validation RMSE:0.10 Pearson:0.43
+Loading raw samples now.
+About to start loading CSV from ../../../data/pki/CAMK2B_pki.csv
+Loading shard 1 of size 8192.
+Featurizing sample 0
+--
+Best hyperparameters: (True, 10, None, 3, 10, 100)
+train_score: 0.732917
+validation_score: 0.268393
+MaxMin
+Training   RMSE:0.05 Pearson:0.86
+Testing    RMSE:0.13 Pearson:0.52
+Validation RMSE:0.11 Pearson:0.52
+Loading raw samples now.
+About to start loading CSV from ../../../data/pki/CAMK2B_pki.csv
+Loading shard 1 of size 8192.
+Featurizing sample 0
+--
+Best hyperparameters: (True, 5, None, 3, 10, 10)
+train_score: 0.658739
+validation_score: 0.179369
+FingerPrint
+Training   RMSE:0.08 Pearson:0.81
+Testing    RMSE:0.11 Pearson:0.00
+Validation RMSE:0.09 Pearson:0.42
